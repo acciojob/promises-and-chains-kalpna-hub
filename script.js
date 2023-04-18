@@ -20,5 +20,5 @@ submitBtn.addEventListener('click', (event) => {
     })
     .catch((error) => {
       alert(`Oh sorry ${error.name}. You aren't old enough.`);
-    });
+    });
 });
